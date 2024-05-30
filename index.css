@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  background: linear-gradient(rgba(165, 170, 233, 0.8), #8c9af6);
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  background: #c8deff;
+  max-width: 280px;
+  padding: 20px;
+  line-height: 20px;
+  position: relative;
+  margin: 4rem;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+  position: absolute;
+  top: -40px;
+  right: -30px;
+}
+
+.img-one {
+  background: url("./Images/Variables one.jpg") no-repeat center/cover;
+}
+
+.img-two {
+  background: url("./Images/Variables two.jpg") no-repeat center/cover;
+}
+
+.img-three {
+  background: url("./Images/Sass Masterclass Three.jpg") no-repeat center/cover;
+}
+
+.img-four {
+  background: url("./Images/Sass Masterclass Four.jpg") no-repeat center/cover;
+}/*# sourceMappingURL=index.css.map */

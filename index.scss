@@ -1,0 +1,51 @@
+$main-color: #c8deff;
+$bg-image: no-repeat center/cover ;
+$main-font: "Roboto", sans-serif;
+
+body{
+    height: 100vh;
+    background: linear-gradient(#a5aae9cc,#8c9af6);
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: $main-font;
+}
+
+.card{
+    background: $main-color;
+    max-width: 280px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+    margin: 4rem;
+}
+
+.img{
+    width: 70px;
+    height:70px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    position: absolute;
+    top: -40px;
+    right: -30px;
+}
+
+.img-one{
+    background:url("./Images/Variables\ one.jpg") $bg-image;
+}
+
+.img-two{
+    background:url("./Images/Variables\ two.jpg") $bg-image;
+}
+.img-three{
+    background:url("./Images/Sass\ Masterclass\ Three.jpg") $bg-image;
+}
+.img-four{
+    background:url("./Images/Sass\ Masterclass\ Four.jpg") $bg-image;
+}
+
