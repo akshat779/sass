@@ -1,6 +1,7 @@
 .card{
     height: 80vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -26,5 +27,6 @@
         padding: 10px 20px;
         // border: 1px solid black;
         cursor: pointer;
+        margin-bottom: 20px;
     }
 }
